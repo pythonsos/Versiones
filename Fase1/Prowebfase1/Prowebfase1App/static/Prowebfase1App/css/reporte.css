@@ -1,0 +1,74 @@
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+form {
+    width: 277px;
+    background: rgb(255, 255, 255);
+    border-radius: 9px;
+    padding: 7px 31px 31px;
+    border: 1px solid rgb(21, 255, 0);
+    margin: 50px auto 0;
+   
+}
+label {
+    display: block;
+    margin-bottom: 9px
+}
+label i {
+    color: rgb(10, 175, 167);
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid rgb(33, 162, 172);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3.5px;
+}
+.row {
+    padding-bottom: 7.8px;
+}
+.form-inline {
+    border: 1px solid rgb(42, 202, 181);
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    padding-right: 10%;
+    width: auto;
+    
+}
+.error {
+    color: rgb(9, 120, 211);
+    font-size: 90%;
+}
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #0fbcd3;
+    border-color: #00ff00;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #00ff00;
+}
+
+input[type="reset"] {
+    font-size: 80%;
+    font-weight: 70;
+    background: #131313;
+    border-color: #00ff00;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+input[type="reset"]:hover {
+    background: #2f00ff;
+}

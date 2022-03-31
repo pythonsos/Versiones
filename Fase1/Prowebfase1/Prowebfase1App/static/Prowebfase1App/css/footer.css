@@ -1,0 +1,25 @@
+.footer{display:block;font-size:16px;margin-top:500px;color:rgba(61, 11, 11, 0.7)}
+.footer a{color:rgba(44, 116, 134, 0.7);text-decoration:none}
+.footer a:hover{color:rgb(154, 6, 173)}
+.bottom-strip{font-size:13px;background:#08f0c9;padding:15px 0;float:left;width:100%}
+.footer-inner{background:#08131d;padding:40px 0}
+.footer h4{color:rgb(14, 156, 212);margin-top:5px;display:inline-block;position:relative;text-transform:uppercase;font-style:italic;margin-bottom:15px;font-size:16px;font-weight:700;font-family:Roboto,"Segoe UI","Helvetica Neue",Arial,sans-serif}
+.tool-box,.link-box{float:left;background-color: #08131d;padding-bottom: 30px;}
+.tool-box a,.link-box a{float:left;display:block;line-height:1.8;margin:3px 0;}
+.tool-box{width:32%;padding-right: 31.5%;}
+.tool-box a{width:60%}
+.tool-box a:nth-child(2n){width:35%;margin-left:5%;}
+.tool-box span{font-size:18px;line-height:normal;position:relative;top:3px;}
+.link-box{width:16%;padding-right:30px;border-right:1px solid rgba(0,0,0,0.2)}
+.link-box a{margin:3px 0;clear:both;}
+.footer h4::after{content:"";height:2px;background:#00ff40;position:absolute;left:0;width:82%;bottom:-5px}
+.footer a:last-child i{font-weight:700;top:2px;left:-5px;}
+.footer a:first-child i{left:-5px}
+.appeal{font-size:16px;background:#081d36;color:rgb(6, 131, 204);padding:16px 0;text-align:center;}
+.appeal p{margin:0}
+.appeal em{font-style:normal}
+.clearfix::after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.wrapper{width:100%;padding:0 15px;margin:0 auto}
+    
+    
+    

@@ -1,0 +1,87 @@
+
+.NvCnAnm .pagination .active a, .NvCnAnm .pagination a:hover {
+    
+    color: rgb(242, 242, 243);
+    background-color: #dd15e4;
+    padding: 0.9%;
+    text-align: center;
+    
+}
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus {
+    z-index: 2;
+    color: #23527c;
+    background-color: #dd15e4;
+     
+}
+.NvCnAnm, .NvCnAnm .pagination a {
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    border: 0;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;  
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #337ab7;
+    background-color: rgb(187, 41, 41);
+    border: 1px solid rgb(97, 99, 216);
+    margin-left: 0.3%;
+  
+}
+a:hover, a:before {
+    color: #00ff00;
+
+}
+a, a:active{
+    outline: 0;
+  
+}
+a, .Title {
+    color: #0088ff;
+
+}
+button, a {
+    transition: all .2s linear;
+    
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+*, :before, :after {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+user agent stylesheet
+a:-webkit-any-link:active {
+    color: -webkit-activelink;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+ul{
+    list-style-position: outside;
+    list-style-type: disc;
+    
+}
+
+body {
+    color: #1b659e;
+    font-size: 15px;
+    line-height: 20px;
+}
