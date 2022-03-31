@@ -1,0 +1,90 @@
+{% extends "Prowebfase3App/barraNavegacion.html" %}
+{% block content %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'Prowebfase3App/css/styles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'Prowebfase3App/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'Prowebfase3App/css/secciones.css' %}">
+
+</head>
+<body>
+
+
+<h3>Nuestros Servicios</h3>
+
+<li>Servicios de Streaming</li>
+<li>Descargas Ilimitadas de contenido</li>
+
+
+
+<!-- Inicio de categorias -->
+
+<figure class="figure">
+
+  <a href="/videos"><img src="{% static 'Prowebfase3App/img/Series.jpg' %}" class="figure-img img-fluid rounded" alt="Series"></a>
+  <figcaption class="figure-caption text-end">Series</figcaption>
+
+</figure>
+
+
+<figure class="figure">
+
+  <a href="/videos"><img src="{% static 'Prowebfase3App/img/Peliculas.jpg' %}" class="figure-img img-fluid rounded" alt="Peliculas"></a>
+  <figcaption class="figure-caption text-end">Películas</figcaption>
+
+</figure>
+
+
+<figure class="figure">
+
+  <a href="/videos"><img src="{% static 'Prowebfase3App/img/Animes.jpg' %}" class="figure-img img-fluid rounded" alt="Animes"></a>
+  <figcaption class="figure-caption text-end">Animes</figcaption>
+
+</figure>
+
+
+
+
+
+  <div class="link-box">
+    <h3>Formulario de Solicitud</h3>
+    <div class="clearfix">                  
+        <a href="/fservicios" onmouseover="alert('Si desea activar alguno de nuestros servicios; porfavor haga click en formulario.')">Formulario</a>
+                  
+    </div>
+  </div>
+    
+<!-- Fin de categorias -->
+
+
+</body>
+</html>
+
+
+
+
+{% endblock %}
+
+   
+
+
+
+
+
+
+
+
+
+
+
